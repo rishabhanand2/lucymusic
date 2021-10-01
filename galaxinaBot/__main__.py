@@ -72,28 +72,28 @@ def get_readable_time(seconds: int) -> str:
 
     return ping_time
 
-galaxina_IMG = "https://telegra.ph/file/643317f5aae1e408488a7.jpg"
+demon_IMG = "https://telegra.ph/file/78fc66b0da8d6f9a2f1dc.jpg"
 
 PM_START_TEXT = """
-`ʜᴇʟʟᴏ` 🤗 `ɪ ᴀᴍ` [ɢᴀʟᴀxɪɴᴀ](https://telegra.ph/file/643317f5aae1e408488a7.jpg) ` ᴘᴏᴡᴇʀꜰᴜʟʟ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ`
-`ɪ ᴀᴍ ᴠᴇʀʏ ꜰᴀꜱᴛ ᴀɴᴅ  ᴍᴏʀᴇ ᴇꜰꜰɪᴄɪᴇɴᴛ  ɪ ᴘʀᴏᴠɪᴅᴇ ᴀᴡᴇꜱᴏᴍᴇ  ꜰᴇᴀᴛᴜʀᴇꜱ ᴡʜɪᴄʜ ᴀ ᴏᴡɴᴇʀ ᴡɪʟʟ ʟᴏᴏᴋ ꜰᴏʀ  ꜰɪʟᴛᴇʀ ,ᴡᴀʀɴ ꜱʏꜱᴛᴇᴍ,ꜱᴀᴠᴇ ɴᴏᴛᴇꜱ, ꜰʟᴏᴏᴅ, ʙᴀɴ ᴀɴᴅ ᴍᴏʀᴇ!`
+`ʜᴇʟʟᴏ` 🤗 `ɪ ᴀᴍ` [Dᴇᴍᴏɴ](https://telegra.ph/file/78fc66b0da8d6f9a2f1dc.jpg) ` ᴘᴏᴡᴇʀꜰᴜʟʟ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ`
+`ɪ ᴀᴍ ᴠᴇʀʏ ꜰᴀꜱᴛ ᴀɴᴅ  ᴍᴏʀᴇ ᴇꜰꜰɪᴄɪᴇɴᴛ  ɪ ᴘʀᴏᴠɪᴅᴇ ᴀᴡᴇꜱᴏᴍᴇ  ꜰᴇᴀᴛᴜʀᴇꜱ ᴡʜɪᴄʜ ɪs ʀᴇǫᴜɪʀᴇᴅ ᴛᴏ ᴍᴀɴᴀɢᴇ ᴀ ɢʀᴏᴜᴘ!`
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="💕 ᴀᴅᴅ ɢᴀʟᴀxɪɴᴀ ᴛᴏ ʏᴏᴜʀ ᴄʜᴀᴛ", url="http://t.me/GalaxinaBot?startgroup=true"),
+            text="💕 ᴀᴅᴅ ᴅᴇᴍᴏɴ ʙᴏᴛ ᴛᴏ ʏᴏᴜʀ ᴄʜᴀᴛ", url="http://t.me/s4shiv_musicbot?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="🔥ᴅᴇᴠꜱ", url=f"https://t.me/GalaxinaDevs"),
+        InlineKeyboardButton(text="🔥Dᴇᴠ", url=f"https://t.me/shivamdemon"),
         InlineKeyboardButton(
             text="ᴠᴄ ᴘʟᴀʏᴇʀ", url=f"https://telegra.ph/𝗡𝗶𝘁𝗿𝗶𝗰𝗫𝗱-09-29"
         ),
     ],
     [
-        InlineKeyboardButton(text="⚡ ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/WorldWideChatsXd"),
+        InlineKeyboardButton(text="⚡Bʜᴀɪ ꜱᴜᴘᴘᴏʀᴛᴇʀ", url=f"https://t.me/Alone_boy_xd_01"),
         InlineKeyboardButton(
-            text="ᴜᴘᴅᴀᴛᴇꜱ 📢", url=f"https://t.me/Sanki_BOTs"
+            text="Gʀᴏᴜᴘ 📢", url=f"https://t.me/swagpartners_xd"
         ),
     ],
     [
@@ -223,7 +223,7 @@ def start(update: Update, context: CallbackContext):
             ),
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="t.me/WorldWideChatsXd")]]
+                [[InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="t.me/Alone_boy_xd_01")]]
             ),
         )
         
@@ -366,10 +366,10 @@ def galaxina_about_callback(update, context):
                 [
                     [
                         InlineKeyboardButton(
-                            text="Bᴜɢ'ꜱ", url="t.me/WorldWideChatsXd"
+                            text="Bᴜɢ'ꜱ", url="t.me/shivamdemon"
                         ),
                         InlineKeyboardButton(
-                            text="Bᴏᴛ Lɪꜱᴛ", url="t.me/Sanki_BOTs"
+                            text="Aɴʏ ɪssᴜᴇ", url="t.me/alone_boy_xd_01"
                         ),
                     ],
                     [InlineKeyboardButton(text="Back", callback_data="galaxina_back")],
@@ -402,7 +402,7 @@ def galaxina_about_callback(update, context):
                     InlineKeyboardButton(text="Nᴏᴛᴇꜱ", callback_data="florenza_notes"),
                  ],
                  [
-                    InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", callback_data="WorldWideChats"),
+                    InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", callback_data="shivamdemon"),
                     InlineKeyboardButton(text="Credit", callback_data="florenza_credit"),
                  ],
                  [
@@ -448,12 +448,12 @@ def galaxina_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Lᴏɢ'ꜱ", url="t.me/GalaxinaLogs"),
-                    InlineKeyboardButton(text="Fᴇᴅ", url="t.me/GalaxinaFedChat"),
+                    InlineKeyboardButton(text="ᴀɴᴏᴛʜᴇʀ ʙᴏᴛ", url="t.me/legend_alone_music_bot"),
+                    InlineKeyboardButton(text="ᴏᴡɴᴇʀ", url="t.me/shivamdemon"),
                  ],
                  [
-                    InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="t.me/WorldWideChatsXd"),
-                    InlineKeyboardButton(text="Uᴘᴅᴀᴛᴇꜱ", url="https://t.me/Sanki_BOTs"),
+                    InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="t.me/alons_boy_xd_01"),
+                    InlineKeyboardButton(text="Gʀᴏᴜᴘ", url="https://t.me/swagpartners_xd"),
                  ],
                  [
                     InlineKeyboardButton(text="Back", callback_data="galaxina_basichelp"),
@@ -470,17 +470,12 @@ def galaxina_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Nitric'Xd", url="t.me/Sanki_Manager"),
-                    InlineKeyboardButton(text="Hexor'Xd", url="t.me/its_Hexor"),
+                    InlineKeyboardButton(text="S 4 Shiv", url="t.me/Sanki_Manager"),
+                    InlineKeyboardButton(text="Mahi", url="t.me/its_Hexor"),
                  ],
                  [
-                    InlineKeyboardButton(text="Vicks'Xd", url="t.me/viichitrapraani"),
-                    InlineKeyboardButton(text="Smoker'Xd", url="https://t.me/Sanki_Owner"),
-                 ],
-                 [
-                    InlineKeyboardButton(text="Back", callback_data="galaxina_basichelp"),
-                 
-                 ]
+                    InlineKeyboardButton(text="Back", callback_data="galaxina_basichelp").
+                     
                 ]
             ),
         )
@@ -491,8 +486,8 @@ def Source_about_callback(update, context):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi..😻 I'm *GalaXina*
-                 \nHere is the [🔥Source Code🔥](https://github.com/TeamVros/GalaxinaBot) .""",
+            text=""" Hi..😻 I'm *DEMON*
+                 \nHere is the [🔥Source Code🔥](https://t.me/shivamdemon) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
