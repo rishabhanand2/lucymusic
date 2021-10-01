@@ -13,8 +13,7 @@
 
 
 ## CREDIT 
-
- Rhne do jarurat k Time pe sab bhao khate h😏
+Jᴀᴀɴ ᴋᴀʀ ᴋʏᴀ ᴋʀᴏɢᴇ ʏᴀᴀʀ ....ɪᴛɴᴀ ʙᴀᴅᴀ ᴀᴅᴍɪ ɴʜɪ ʜᴜ ᴍᴇ😏
 
 
 
