@@ -474,7 +474,8 @@ def galaxina_about_callback(update, context):
                     InlineKeyboardButton(text="Mahi", url="t.me/alone_boy_xd_01"),
                  ],
                  [
-                    InlineKeyboardButton(text="Back", callback_data="galaxina_basichelp").
+                    InlineKeyboardButton(text="Back", callback_data="galaxina_basichelp"),
+                 
                  ]    
                 ]
             ),
