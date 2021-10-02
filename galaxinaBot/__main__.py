@@ -470,12 +470,12 @@ def galaxina_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="S 4 Shiv", url="t.me/Sanki_Manager"),
-                    InlineKeyboardButton(text="Mahi", url="t.me/its_Hexor"),
+                    InlineKeyboardButton(text="S 4 Shiv", url="t.me/Shivamdemon"),
+                    InlineKeyboardButton(text="Mahi", url="t.me/alone_boy_xd_01"),
                  ],
                  [
                     InlineKeyboardButton(text="Back", callback_data="galaxina_basichelp").
-                     
+                 ]    
                 ]
             ),
         )
